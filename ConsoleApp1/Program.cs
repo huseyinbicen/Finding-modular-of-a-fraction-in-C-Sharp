@@ -31,7 +31,7 @@ namespace ConsoleApp1
                 if ((Numerator + i * Mod)%Denominator == 0)
                 {
                     Numerator += i * Mod;
-                    Console.WriteLine("i degeri = " + i);
+                    Console.WriteLine("Value of i = " + i);
                     break;
                 }
             }
